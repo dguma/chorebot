@@ -1,21 +1,17 @@
-import './App.css';
 import { 
   NavBar,
   Hero,
   Welcome,
   CallToAction,
+  Main,
+  Header,
  } from './components/index';
-
- //End of imports
-
- //Styled HTML elements with styled components.
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <NavBar />
-      </header>
+    <div className="App">  
+      <Header />
+      <Main />
     </div>
   );
 }
